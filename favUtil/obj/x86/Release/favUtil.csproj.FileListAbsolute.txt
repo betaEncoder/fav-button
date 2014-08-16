@@ -1,0 +1,9 @@
+C:\Users\betaEncoder\Documents\Visual Studio 2013\Projects\favUtil\favUtil\bin\Release\favUtil.exe.config
+C:\Users\betaEncoder\Documents\Visual Studio 2013\Projects\favUtil\favUtil\obj\x86\Release\favUtil.csprojResolveAssemblyReference.cache
+C:\Users\betaEncoder\Documents\Visual Studio 2013\Projects\favUtil\favUtil\obj\x86\Release\favUtil.Form1.resources
+C:\Users\betaEncoder\Documents\Visual Studio 2013\Projects\favUtil\favUtil\obj\x86\Release\favUtil.Properties.Resources.resources
+C:\Users\betaEncoder\Documents\Visual Studio 2013\Projects\favUtil\favUtil\obj\x86\Release\favUtil.csproj.GenerateResource.Cache
+C:\Users\betaEncoder\Documents\Visual Studio 2013\Projects\favUtil\favUtil\bin\Release\favUtil.exe
+C:\Users\betaEncoder\Documents\Visual Studio 2013\Projects\favUtil\favUtil\bin\Release\favUtil.pdb
+C:\Users\betaEncoder\Documents\Visual Studio 2013\Projects\favUtil\favUtil\obj\x86\Release\favUtil.exe
+C:\Users\betaEncoder\Documents\Visual Studio 2013\Projects\favUtil\favUtil\obj\x86\Release\favUtil.pdb
