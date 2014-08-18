@@ -278,6 +278,8 @@ namespace favUtil
 
         private void listBoxDevices_SelectedValueChanged(object sender, EventArgs e)
         {
+            disableControlAll();
+            button1.Enabled = false;
             if(listBoxDevices.Items.Count<1)
             {
                 return;
@@ -286,8 +288,8 @@ namespace favUtil
             {
                 return;
             }
-            disableControlAll();
             enableDeviceRadio();
+            button1.Enabled = true;
             if(listBoxDevices.Items.Count<6)
             {
                 buttonAdd.Enabled = true;
