@@ -16,7 +16,8 @@
     <div class="wrapper">
       <header>
         <h1>Fav-button</h1>
-        <p>It include the configuration utility &quot;favUtil&quot; and the STL 3D-model.</p>
+		<img src="img/fav_thumb.png">
+        <p>ふぁぼボタンのサポートページです</p>
 
         <p class="view"><a href="https://github.com/betaEncoder/fav-button">View the Project on GitHub <small>betaEncoder/fav-button</small></a></p>
 
@@ -29,29 +30,47 @@
       </header>
       <section>
         <h1>
-<a name="fav-button" class="anchor" href="#fav-button"><span class="octicon octicon-link"></span></a>fav-button</h1>
+<a name="fav-button" class="anchor" href="#fav-button"><span class="octicon octicon-link"></span></a>ふぁぼボタンとは</h1>
 
-<p>It's including the configuration utility "favUtil" and the STL 3D-model.<br>
-The firmware is published at mbed.org<br><a href="https://mbed.org/users/betaEncoder/code/favButton/">https://mbed.org/users/betaEncoder/code/favButton/</a></p>
-
-<p>ふぁぼボタンの設定ユーティリティ"favUtil"とSTLデータが含まれます．<br>
-ファームウェアのソースはmbed.orgにて公開しています．<br><a href="https://mbed.org/users/betaEncoder/code/favButton/">https://mbed.org/users/betaEncoder/code/favButton/</a></p>
-
-<h2>
-<a name="favutil" class="anchor" href="#favutil"><span class="octicon octicon-link"></span></a>favUtil</h2>
-
-<p>ふぁぼボタンに登録するキーを設定するためのユーティリティです．<br>
+<p>mbed LPC11U24 互換のボードを内蔵したUSBデバイス開発キットです．<br>
+初期状態では，<br>
+「キーボード」「マウス」「メディアコントローラ」「汎用HID」<br>
+の4デバイスとして認識されるサンプルアプリケーションが書き込まれています．<br>
+<br>
+つまり，<br>
+<br>
+PCやタブレットとUSBで接続し，ふぁぼる事ができるボタン(物理)です．<br>
+<hr>
+<h2>ふぁぼボタンの設定方法</h2>
+<p>PCとふぁぼボタンを接続するためのUSBケーブル(<a href="http://www.amazon.co.jp/dp/B007STDNX2/ref=cm_sw_r_tw_dp_Umxkub0B8A9V9">A-miniBタイプ</a>)が必要です．<br>
+同梱していないのでお手持ちのものを利用するか，お買い求め下さい．<br>
+<br>
+初期状態では，ボタンが押された時にキーボードから"F"キーが押されたことになっています．<br>
+これを普段お使いのtwitterクライアントやその他のアプリケーション向けのショートカットに変更するには，以下のツールを使って下さい．<br>
+<br>
+PCと接続してから，ふぁぼボタンを設定するやつを起動します．<br>
+ふぁぼボタンを設定するやつのダウンロードはここから<br>
+<a href="https://github.com/betaEncoder/fav-button/releases">favUtil.zipをダウンロード</a>してください<br>
 選択できるデバイスは，キーボード，マウス，メディアコントローラの3種類で，それぞれの合計が6つまで登録できます．<br>
 (キーボードなら6文字までストロークとして登録できます)<br>
-キーボードのキーコードはHIDのusageを参照して入力することにより，特殊機能キーも設定可能です．  </p>
-
-<p>P.53参照：[PDF] Universal Serial Bus HID Usage Tables - USB.org<br><a href="http://www.google.co.jp/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CBwQFjAA&amp;url=http%3A%2F%2Fwww.usb.org%2Fdevelopers%2Fdevclass_docs%2FHut1_11.pdf&amp;ei=asryU9P-D8e68gWSqILYCA&amp;usg=AFQjCNHlUAUesNeRiG8lNjPgkTsmocWdoQ&amp;sig2=lkjVF4xc9Tu4ViTkOIuBpA&amp;bvm=bv.73231344,d.dGc">http://www.google.co.jp/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CBwQFjAA&amp;url=http%3A%2F%2Fwww.usb.org%2Fdevelopers%2Fdevclass_docs%2FHut1_11.pdf&amp;ei=asryU9P-D8e68gWSqILYCA&amp;usg=AFQjCNHlUAUesNeRiG8lNjPgkTsmocWdoQ&amp;sig2=lkjVF4xc9Tu4ViTkOIuBpA&amp;bvm=bv.73231344,d.dGc</a></p>
-
+キーボードのキーコードはHIDのusageを参照して入力することにより，特殊機能キーも設定可能です．  <br> 
+キーコードはP.53参照：[PDF] <a href="http://www.google.co.jp/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CBwQFjAA&amp;url=http%3A%2F%2Fwww.usb.org%2Fdevelopers%2Fdevclass_docs%2FHut1_11.pdf&amp;ei=asryU9P-D8e68gWSqILYCA&amp;usg=AFQjCNHlUAUesNeRiG8lNjPgkTsmocWdoQ&amp;sig2=lkjVF4xc9Tu4ViTkOIuBpA&amp;bvm=bv.73231344,d.dGc">Universal Serial Bus HID Usage Tables - USB.org</a><br>
+</p>
+<hr>
 <h2>
-<a name="3d-model" class="anchor" href="#3d-model"><span class="octicon octicon-link"></span></a>3D-model</h2>
-
-<p>ふぁぼボタンの3Dモデルです．<br>
-STLファイルなので3Dプリンタや出力サービスを使って出力することができます．</p>
+<a name="favutil" class="anchor" href="#favutil"><span class="octicon octicon-link"></span></a>ボタンを押しても反応が鈍い時は(上級者向け)</h2>
+<p>チップ部品のはんだ付けができる上級者向けです．難しいと思われる方はtwitterなりで連絡を下さい．<br>
+<br>
+ふぁぼボタンを分解すると，中にはmbed互換基板と近接センサ基板があります．<br>
+近接センサ基板に乗っている2つのチップ抵抗のうち，3.3kΩを10kΩ程度に交換すると反応が良くなります．<br>
+フォトリフレクタとボタン部分のバラつきによってはVIL(MAX)に引っかからない場合があるようです．<br>
+</p>
+<hr>
+<h2>開発キットとして使いたい場合</h2>
+<p>
+githubにてソースや回路図を公開しています．<br>
+<a href="https://github.com/betaEncoder/fav-button">プロジェクトページを御覧ください．</a><br>
+</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/betaEncoder">betaEncoder</a></p>
