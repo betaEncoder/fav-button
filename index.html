@@ -15,9 +15,10 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Fav-button</h1>
+        <h1>ふぁぼボタン</h1>
 		<img src="img/fav_thumb.png">
-        <p>ふぁぼボタンのサポートページです</p>
+        <p>ふぁぼ廃と開発者のための mbed LPC11U24 互換のUSB開発キット<br>
+		ふぁぼボタンのサポートページです</p>
 
         <p class="view"><a href="https://github.com/betaEncoder/fav-button">View the Project on GitHub <small>betaEncoder/fav-button</small></a></p>
 
@@ -32,10 +33,10 @@
         <h1>
 <a name="fav-button" class="anchor" href="#fav-button"><span class="octicon octicon-link"></span></a>ふぁぼボタンとは</h1>
 
-<p>twitterで反響の大きかった<a href="https://twitter.com/betaEncoder/status/500549330659315714/photo/1">あのデバイス</a>です．<br>
+<p>twitterでRTされまくった<a href="https://twitter.com/betaEncoder/status/500549330659315714/photo/1"><b> あのデバイス </b></a>です．<br>
 ほんとうは，mbed LPC11U24 互換のボードを内蔵したUSBデバイス開発キットです．<br>
-初期状態では，<br>
-「キーボード」「マウス」「メディアコントローラ」「汎用HID」<br>
+初期状態でPCに接続すると，<br>
+「キーボード」「マウス」「メディアコントローラ」「汎用HID(設定用)」<br>
 の4デバイスとして認識されるサンプルアプリケーションが書き込まれています．<br>
 <br>
 つまり，<br>
@@ -48,6 +49,7 @@ PCやタブレットとUSBで接続し，ふぁぼる事ができるボタン(�
 <br>
 初期状態では，ボタンが押された時にキーボードから"F"キーが押されたことになっています．<br>
 これを普段お使いのtwitterクライアントやその他のアプリケーション向けのショートカットに変更するには，以下のツールを使って下さい．<br>
+CAD等でよく使うショートカットキーとか，キーストロークを登録すると便利かもしれません．<br>
 <br>
 PCと接続してから，ふぁぼボタンを設定するやつを起動します．<br>
 ふぁぼボタンを設定するやつのダウンロードはここから<br>
@@ -65,7 +67,9 @@ PCと接続してから，ふぁぼボタンを設定するやつを起動しま
 <br>
 <h3>②デバイス選択コンボボックス</h3>
 接続されているふぁぼボタンが表示されています．<br>
+ふぁぼボタンは一台のPCに複数台接続できるようになっています．<br>
 設定するふぁぼボタンの番号を選択して下さい．<br>
+(一台のみの場合は自動的に選択されると思います)<br>
 選択されたふぁぼボタンは点滅するので複数台のふぁぼボタンがあってもわかるようになっています．<br>
 <br>
 <h3>③送信コマンドリストボックス</h3>
@@ -89,6 +93,10 @@ PCと接続してから，ふぁぼボタンを設定するやつを起動しま
 <p>チップ部品のはんだ付けができる上級者向けです．難しいと思われる方は<a href="https://twitter.com/betaEncoder">twitter</a>等で連絡を下さい．<br>
 <br>
 ふぁぼボタンを分解すると，中にはmbed互換基板と近接センサ基板があります．<br>
+<br>
+<img src="img/reflector_schema.png"><br>
+センサ基板回路図<br>
+<br>
 近接センサ基板に乗っている2つのチップ抵抗のうち，3.3kΩを10kΩ程度に交換すると反応が良くなります．<br>
 フォトリフレクタとボタン部分のバラつきによってはVIL(MAX)に引っかからない場合があるようです．<br>
 </p>
